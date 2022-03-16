@@ -1,3 +1,3 @@
 ---
 - name: Prueba de comando crudo
-  raw: echo "$(uname -s),$(whoaim)"
+  raw: echo "Soy un equipo $(uname -s) y soy el usuario $(whoami), ejecutaron un playbook de comandos crudos"
