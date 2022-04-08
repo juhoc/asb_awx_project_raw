@@ -1,6 +1,8 @@
 ---
 - name: Main Task
   hosts: all
+  vars:
+    - groupname: "Escriba un usuario"
   tasks:
     - include_role:
         name: role_comando_crudo
